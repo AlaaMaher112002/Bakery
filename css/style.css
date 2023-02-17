@@ -1,0 +1,175 @@
+#home{
+    background-image: url(../image/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.home-layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+#logo{
+    height: 30px;
+}
+h1{
+    font-family: Alegreya;
+    font-size: 70px;
+}
+.navbar-nav .nav-link{
+    transition: all;
+    transition-duration: 1s;
+}
+.navbar-nav .nav-link:hover{
+    color: rgba(10, 5, 1, 0.9) !important;
+    }
+    .navbar{
+        height: 60px !important;
+        z-index: 99999;
+        background-color: rgba(110, 67, 24, 0.5) !important;
+    }
+    .home-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0,0.6);
+        background-size: 100% 100%;
+    }
+    .home-content p{
+        max-width: 500px;
+    }
+    .btn{
+        border: 1px solid white;
+        color: white;
+        padding: 9px 20px;
+        margin-top: 10px;
+        transition: all;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    }
+    .btn:hover{
+        background-color: white;
+        color:rgba(83, 52, 5, 0.6) ;
+        
+    }
+.btn1{
+    background-color: rgba(110, 67, 24, 0.5);
+}
+.btn2{
+        background-color: rgb(247, 247, 247);
+        color:rgba(83, 52, 5, 0.9) ;
+}
+.btn2:hover{
+    background-color: rgb(187, 159, 124);
+    color: white;
+}
+.setting{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    border: 1px solid rgb(32, 31, 31);
+    background-color: rgba(32, 31, 31,0.6);
+}
+
+ h2{
+    font-family:'italic';
+    color:rgba(122, 79, 22,0.6);
+    font-size: 25px;
+ }
+  p{
+    color: gray;
+    line-height: 28px;
+}
+#about ul li{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.about-icons i{
+    font-size: 24px;
+    background-color:rgba(122, 79, 22,0.6) ;
+    color: aliceblue;
+   width: 45px;
+   height: 45px;
+   padding-top: 10px;
+   padding-left: 10px;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.about-icons p{
+    margin: 12px 10px;
+    font-size: 19px;
+}
+
+.review-icon p{
+    color: gray;
+    line-height: 32px;
+}
+.review-icon i{
+    color:rgba(122, 79, 22,0.6) ;
+    font-size: 24px;
+     margin-right: 7px;
+}
+
+#blog h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.last{
+    box-sizing: border-box;
+    background-color: rgb(36, 35, 35);
+    color:#beb9b9 ;
+}
+.last h4{
+    color: #F8F8F8;
+    font-size: 25px;
+    font-family: 'Alegreya';
+}
+.brdr{
+    width: 75%;
+    height: 1px;
+    background-color: #5c5956;
+    text-align: center;
+
+}
+
+.last-icon li i{
+    color:#beb9b9 ;
+    font-size: 20px;
+     margin-right: 15px;  
+     transition: all;
+     transition-duration: 0.5;
+}
+.last-icon li i:hover{
+color: #5c5956;
+}
+.social-media{
+    background-color: rgb(15, 15, 15);
+}
+.social-media i{
+margin-left: 10px;
+font-size: 22;
+transition: all;
+transition-duration: 0.5s;
+}
+.social-media i:hover{
+color: rgb(49, 49, 49) ;
+}
+
+.col-xl-4{
+    overflow: hidden;
+}
+
+.gallery-image{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.gallery-image img{
+   width: 100%;
+   height: 100%;
+   transition: transform 2s;
+}
+.col-xl-4:hover img{
+    transform: scale(1.3);
+}
